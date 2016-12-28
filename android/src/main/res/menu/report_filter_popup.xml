@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/today_filter_option"
+        android:title="@string/filter_option_today"/>
+    <item
+        android:id="@+id/week_filter_option"
+        android:title="@string/filter_option_week"/>
+    <item
+        android:id="@+id/month_filter_option"
+        android:title="@string/filter_option_month"/>
+    <item
+        android:id="@+id/date_filter_option"
+        android:title="@string/filter_option_date"/>
+    <item
+        android:id="@+id/range_filter_option"
+        android:title="@string/filter_option_range"/>
+</menu>

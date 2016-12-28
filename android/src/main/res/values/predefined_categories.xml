@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="predefined_categories">
+        <item>@string/cat_general</item>
+        <item>@string/cat_clothes</item>
+        <item>@string/cat_entertainment</item>
+        <item>@string/cat_food</item>
+        <item>@string/cat_health</item>
+        <item>@string/cat_household</item>
+        <item>@string/cat_hygiene</item>
+        <item>@string/cat_pets</item>
+        <item>@string/cat_presents</item>
+        <item>@string/cat_sports</item>
+        <item>@string/cat_transportation</item>
+    </string-array>
+</resources>

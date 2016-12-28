@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Трекер Расходов</string>
+
+    <string name="nav_today">Сегодня</string>
+    <string name="nav_report">Отчеты о расходах</string>
+    <string name="nav_categories">Категории расходов</string>
+    <string name="nav_settings">Настройки</string>
+
+    <string name="drawer_open">Открыть панель навигации</string>
+    <string name="drawer_close">Закрыть панель навигации</string>
+
+    <string name="add_category">Добавить категорию</string>
+    <string name="edit_category">Редактировать категорию</string>
+    <string name="delete_category">Удалить категорию</string>
+    <string name="delete_cat_dialog_msg">Все связанные с этой категорией расходы также будут удалены. Вы уверены, что хотите продолжить?</string>
+    <string name="category_deleted">Категория удалена</string>
+    <string name="category_added">Категория добавлена</string>
+    <string name="category_updated">Категория обновлена</string>
+    <string name="category_name_string">Название категории</string>
+
+    <string name="today_total">Всего за сегодня</string>
+    <string name="today_expenses">Список расходов</string>
+
+    <string name="add_expense">Новый расход</string>
+    <string name="edit_expense">Редактировать расход</string>
+    <string name="delete_expense">Удалить расход</string>
+    <string name="delete_exp_dialog_msg">Вы уверены, что хотите удалить расход?</string>
+    <string name="expense_deleted">Расход удален</string>
+    <string name="expense_added">Расход добавлен</string>
+    <string name="expense_updated">Расход обновлен</string>
+    <string name="expense_category_name_string">Категория</string>
+    <plurals name="expenses_deleted_plurals_msg">
+        <item quantity="one">Удалено расходов: %d</item>
+        <item quantity="few">Удалено расходов: %d</item>
+        <item quantity="many">Удалено расходов: %d</item>
+    </plurals>
+
+    <string name="delete_string">Удалить</string>
+    <string name="done_string">Готово</string>
+    <string name="error_empty_field">Пустое поле не допустимо</string>
+    <string name="error_zero_value">Нулевое значение не допустимо</string>
+    <string name="error_incorrect_input">Неверный ввод</string>
+
+    <string name="filter_expenses">Фильтр</string>
+    <string name="filter_option_today">За Сегодня</string>
+    <string name="filter_option_week">За Неделю</string>
+    <string name="filter_option_month">За Месяц</string>
+    <string name="filter_option_date">За Дату</string>
+    <string name="filter_option_range">За Период времени</string>
+    <string name="filter_todays_expenses">Расходы за сегодня</string>
+    <string name="filter_weeks_expenses">Расходы за неделю</string>
+    <string name="filter_months_expenses">Расходы за месяц</string>
+    <string name="filter_date_expenses">За %s</string>
+    <string name="filter_date_range_expenses">%1$s - %2$s</string>
+
+    <string name="default_string">По умолчанию</string>
+    <string name="no_categories_string">&#60;Нет категорий&#62;</string>
+    <string name="no_expenses">Расходов нет.</string>
+    <string name="total_string">Всего</string>
+
+    <string name="pref_currency_title">Валюта</string>
+    <string name="pref_currency_default">USD</string>
+    <string-array name="pref_currency_list_titles">
+        <item>Доллар США</item>
+        <item>Евро</item>
+        <item>Фунт стерлингов</item>
+        <item>Канадский доллар</item>
+        <item>Австралийский доллар</item>
+        <item>Украинская гривна</item>
+        <item>Российский рубль</item>
+    </string-array>
+    <string-array name="pref_currency_list_values">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>CAD</item>
+        <item>AUD</item>
+        <item>UAH</item>
+        <item>RUB</item>
+    </string-array>
+
+    <string name="cat_general">Общее</string>
+    <string name="cat_clothes">Одежда</string>
+    <string name="cat_entertainment">Развлечения</string>
+    <string name="cat_food">Питание</string>
+    <string name="cat_health">Здоровье</string>
+    <string name="cat_household">Дом</string>
+    <string name="cat_hygiene">Гигиена</string>
+    <string name="cat_pets">Питомцы</string>
+    <string name="cat_presents">Подарки</string>
+    <string name="cat_sports">Спорт</string>
+    <string name="cat_transportation">Транспорт</string>
+
+</resources>

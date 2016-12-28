@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">ExpenseTracer</string>
+
+    <string name="nav_today">Today</string>
+    <string name="nav_report">Expense reports</string>
+    <string name="nav_categories">Expense categories</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="add_category">Add a category</string>
+    <string name="edit_category">Edit category</string>
+    <string name="delete_category">Delete category</string>
+    <string name="delete_cat_dialog_msg">All associated expenses will be deleted as well. Are you sure you want to delete the category?</string>
+    <string name="category_deleted">Category deleted</string>
+    <string name="category_added">Category added</string>
+    <string name="category_updated">Category updated</string>
+    <string name="category_name_string">Category name</string>
+
+    <string name="today_total">Today\'s total</string>
+    <string name="today_expenses">Today\'s expenses</string>
+
+    <string name="add_expense">New expense</string>
+    <string name="edit_expense">Edit expense</string>
+    <string name="delete_expense">Delete expense</string>
+    <string name="delete_exp_dialog_msg">Are you sure you want to delete the expense?</string>
+    <string name="expense_deleted">Expense deleted</string>
+    <string name="expense_added">Expense added</string>
+    <string name="expense_updated">Expense updated</string>
+    <string name="expense_category_name_string">Category</string>
+    <plurals name="expenses_deleted_plurals_msg">
+        <item quantity="one">%d expense deleted</item>
+        <item quantity="other">%d expenses deleted</item>
+    </plurals>
+
+    <string name="delete_string">Delete</string>
+    <string name="done_string">Done</string>
+    <string name="error_empty_field">Empty field</string>
+    <string name="error_zero_value">Zero value is invalid</string>
+    <string name="error_incorrect_input">Incorrect input</string>
+
+    <string name="filter_expenses">Filter</string>
+    <string name="filter_option_today">By Today</string>
+    <string name="filter_option_week">By Week</string>
+    <string name="filter_option_month">By Month</string>
+    <string name="filter_option_date">By Date</string>
+    <string name="filter_option_range">By Date range</string>
+    <string name="filter_todays_expenses">Today\'s expenses</string>
+    <string name="filter_weeks_expenses">Week\'s expenses</string>
+    <string name="filter_months_expenses">Month\'s expenses</string>
+    <string name="filter_date_expenses">For %s</string>
+    <string name="filter_date_range_expenses">%1$s - %2$s</string>
+
+    <string name="default_string">Default</string>
+    <string name="no_categories_string">&#60;No categories&#62;</string>
+    <string name="no_expenses">There are no expenses.</string>
+    <string name="total_string">Total</string>
+
+    <string name="pref_currency_title">Currency</string>
+    <string name="pref_currency_default">USD</string>
+    <string-array name="pref_currency_list_titles">
+        <item>US Dollar</item>
+        <item>Euro</item>
+        <item>British Pound</item>
+        <item>Canadian Dollar</item>
+        <item>Australian Dollar</item>
+        <item>Ukrainian Hryvnia</item>
+        <item>Russian Rouble</item>
+    </string-array>
+    <string-array name="pref_currency_list_values">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>CAD</item>
+        <item>AUD</item>
+        <item>UAH</item>
+        <item>RUB</item>
+    </string-array>
+
+    <!-- Predefined expense categories -->
+    <string name="cat_general">General</string>
+    <string name="cat_clothes">Clothes</string>
+    <string name="cat_entertainment">Entertainment</string>
+    <string name="cat_food">Food</string>
+    <string name="cat_health">Health</string>
+    <string name="cat_household">Household</string>
+    <string name="cat_hygiene">Hygiene</string>
+    <string name="cat_pets">Pets</string>
+    <string name="cat_presents">Presents</string>
+    <string name="cat_sports">Sports</string>
+    <string name="cat_transportation">Transportation</string>
+
+</resources>
