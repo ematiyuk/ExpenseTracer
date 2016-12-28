@@ -229,11 +229,10 @@ public class ExpenseEditFragment extends Fragment implements LoaderManager.Loade
                 int expenseCategoryIdIndex = data.getColumnIndex(Expenses.CATEGORY_ID);
 
                 data.moveToFirst();
-                String expenseValue = Utils.formatToCurrency(data.getFloat(expenseValueIndex));
                 mExpenseCategoryId = data.getLong(expenseCategoryIdIndex);
                 updateSpinnerSelection();
 
-                mExpValueEditText.setText(expenseValue);
+                mExpValueEditText.setText(String.valueOf(data.getFloat(expenseValueIndex)));
                 mExpValueEditText.selectAll();
                 break;
             case CATEGORIES_LOADER_ID:
